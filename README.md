@@ -62,10 +62,11 @@ Running training scripts for models.
 Example: Automating data preprocessing and model evaluation.
 
 ## Python Interactive Mode (REPL)
-R: Read – It reads the code or input you type.
-E: Evaluate – It evaluates the code or expression.
-P: Print – It displays the result of the evaluation.
-L: Loop – It goes back to accept more input in a loop.
+
+* R: Read – It reads the code or input you type.
+* E: Evaluate – It evaluates the code or expression.
+* P: Print – It displays the result of the evaluation.
+* L: Loop – It goes back to accept more input in a loop.
 
 use windows powershell: code to check python version
 ## python --version
@@ -97,14 +98,16 @@ A local variable, on the other hand, is a variable that is declared within a fun
 
 Variable = 10 #global variable
 
-Ex: def function():
-    value=5 #local variable
-	Global variable # using the global variable
-	variable += value
-	print(f"local variable:{value}")
-	print(f"global variable: {variable}")
-	
-function()
+Ex: 
+
+    def function():
+
+       value=5 #local variable
+	   Global variable # using the global variable
+	   variable += value
+	   print(f"local variable:{value}")
+	   print(f"global variable: {variable}")
+	function()
 
 ## Rules for Naming Variables:
 * Start with a Letter or Underscore
@@ -244,7 +247,6 @@ result = a or b
 a = True 
 
 result = not a # result is False
-
 
 
 
