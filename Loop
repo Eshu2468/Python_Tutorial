@@ -1,0 +1,50 @@
+In Python, a loop is a programming construct that allows you to repeatedly execute a block of code as long as a certain condition is true or until a specific number of iterations are completed.
+
+Types of Loops in Python
+for Loop
+Used to iterate over a sequence (like a list, tuple, string, or range).
+
+while Loop
+Used to execute a block of code as long as a given condition is True.
+
+Loop Control Statements
+break: Exits the loop prematurely.
+continue: Skips the current iteration and moves to the next
+pass: Does nothing; acts as a placeholder.
+
+
+
+#for loop, #while loop, 
+#break
+#continue
+
+
+# number=[1,2,3,4,5]
+
+# for num in number:
+#     if num==4:
+#         continue
+#     print(num)
+
+
+
+# number=1
+# while number<=15:
+#     if number==5:
+#         continue
+#     print(number)
+#     number+=1     #increment add(counts)
+
+
+
+number=[1,2,3,4,5,6]
+
+for num in number:
+    if num % 2 ==0:
+        print(f"{num}is even")
+
+
+
+for loops are best for iterating over sequences.
+while loops are used when the number of iterations is not predetermined.
+Loops can be nested, meaning one loop inside another.
