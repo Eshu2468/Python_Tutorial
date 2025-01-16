@@ -1,0 +1,122 @@
+Arithmetic operators in Python are used to perform mathematical operations between two operands.
+
+Explanation:
+Addition (+): Adds two numbers.
+Subtraction (-): Subtracts the second number from the first.
+Multiplication (*): Multiplies two numbers.
+Division (/): Divides the first number by the second, resulting in a float.
+Modulus (%): Returns the remainder of the division.
+Exponentiation (**): Raises the first number to the power of the second.
+Floor Division (//): Divides the first number by the second and rounds down to the nearest whole number.
+
+
+example:
+# Addition
+
+var=45
+var2=50
+var3= var+var2
+print("addition:",var3)
+
+sub=var-var2
+print("subtraction:",sub)
+
+print("Multiplication:", var*var2)
+print("division:", var/var2)
+print("modulus:", var%var2)
+print("exponent:", var**var2)
+print("floordivision:", var//var2)
+
+example2
+a = 10
+b = 3
+
+print("Addition:", a + b)           # 13
+print("Subtraction:", a - b)        # 7
+print("Multiplication:", a * b)     # 30
+print("Division:", a / b)           # 3.333...
+print("Modulus:", a % b)            # 1
+print("Exponentiation:", a ** b)    # 1000
+print("Floor Division:", a // b)    # 3
+
+
+#logical operator
+
+name=True
+name1=False
+
+result= name and name1  #both operands are true then only it meets the condition and returns true
+
+print("logical and:", result)
+print("Logical OR:", name or name1)  #returns true if at least one operand is true
+
+#reverse the logical state of the operand
+
+a=True
+result2=not a
+print("logical not:", result2)
+
+a=10
+b=5
+c=15
+
+if a>b and c>a:
+    print("both conditions are true")
+if a<b or c>b:
+    print("at leaste one condition is true")
+if not(a<b):
+    print("a is not less than b")
+
+2. Comparison (Relational) Operators
+Used to compare two values.
+
+a = 10
+b = 20
+
+# Equal to (==)
+print(a == b)  # False, because 10 is not equal to 20
+
+# Not equal to (!=)
+print(a != b)  # True, because 10 is not equal to 20
+
+# Greater than (>)
+print(a > b)   # False, because 10 is not greater than 20
+
+# Less than (<)
+print(a < b)   # True, because 10 is less than 20
+
+# Greater than or equal to (>=)
+print(a >= b)  # False, because 10 is not greater than or equal to 20
+
+# Less than or equal to (<=)
+print(a <= b)  # True, because 10 is less than or equal to 20
+
+output
+-------
+False
+True
+False
+True
+False
+True
+
+
+#assignment operators
+'''
++= add and assign
+-=  sub and assign
+*=  multiply and assign
+/=  divid and assign
+//=  floor divide and assign
+**=  exponent and assign
+
+'''
+x=10
+x += 5
+x+5
+print("x = ", x)
+
+
+
+
+
