@@ -1,0 +1,131 @@
+# '''
+# data types are the information which stored in the  variables
+
+# types of data type in python
+# a. primitative datatype
+# 1. integer  -- whole numbers
+# 2.boolean  -- true or false
+# 3. string  -- is a collection of characters
+# 4. complex -- mixter or both numer and character
+# 5. float   -- decimal number
+
+# b. non primitative datatype
+# 1. list  -- [ ]
+# 2. tuple -- ( )
+# 3. set   -- { }
+# 4. dictionary -- {"key" : "value"}
+# 5. frozen set -- ({})
+
+
+
+# '''
+
+# name="sonali"
+# print(name)
+# print(type(name))
+
+# age=78
+# price=45.2
+# value=True
+# numbers=[4,5,6]
+# num=(23,45,67)
+# set={4,4,5,5,9,9,7,7,8,8,2}
+# dictionary={"name":"eshwari","name2":"yamuna","name3":"kalyan","age":25,"number":4578963225}
+# fS=({1,2,3})
+
+# print(age)
+# print(price)
+# print(value)
+# print(numbers)
+# print(num)
+# print(set)
+# print(dictionary)
+# print(fS)
+
+
+# print(type(age))
+# print(type(price))
+# print(type(value))
+# print(type(numbers))
+# print(type(num))
+# print(type(set))
+# print(type(dictionary))
+# print(type(fS))
+
+import sys
+print(sys.version)
+
+
+x=45   
+y=3.3
+
+abc=x+y
+print(abc)
+print(type(abc))
+
+
+a=80.5
+b=int(a)
+
+print(b)
+print(type(b))
+
+
+
+---------------------------
+
+
+'''
+data types: information stored in variable
+
+types of data types:
+1. primitative data type
+- integer
+- float
+- string
+- boolean
+- complex
+
+2. Non primitative data type
+- list
+- tuple
+- set
+- frozen set
+- dictionary
+
+'''
+"""
+a=1
+b=5.6
+c=2+3j
+d=True
+e="python script"
+list=["numbers", 1 , 2 , 3]
+tuple= ("red","green", "yellow")
+set={1,5,5,6,6,8,9}
+dictt={"name":"John","class": 2}
+frozensett=({1,2,3,4})
+
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print(list)
+print(tuple)
+print(set)
+print(dictt)
+print(frozensett)
+
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+print(type(list))
+print(type(tuple))
+print(type(set))
+print(type(dictt))
+print(type(frozensett))
+
+"""
