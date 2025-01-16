@@ -1,0 +1,53 @@
+#error handling is the process of handling and managing errors that occur during the execution 
+ #of the program.
+ '''
+try
+except
+finally
+'''
+
+try:
+  result=10/0
+except ZeroDivisionError:
+   print("Error: this cannot divide by zero.")
+finally:
+    print("execution completed.")
+
+    # try:
+    #     number = int(input("enter a number:"))
+    # except ValueError:
+    #     print("error: invalid input, please enter a number")
+    # finally:
+    #     print("program finished")
+    # # print(number)
+
+
+    # import logging
+
+    # logging.basicConfig(filename='errors.log', level=logging.ERROR)
+
+    # try:
+    #     number=int(input("enter a number:"))
+    #     result=100/number
+    # except ZeroDivisionError as e:
+    #       logging.error(f"zerodivisionerror occured:{e}")
+    #       print("cannot divide by zero. error logged.")
+
+    # except ValueError as e:
+    #      logging.error(f"value error occuered: {e}")
+    #      print("invalid input. error logged")
+    # finally:
+    #      print("execution complete. check the log file for details.")   
+
+    #nested try and expect error handling
+
+    try:
+        number=int(input("enter a number: "))
+        try:
+            result=10 / number
+            print(f"The result is: {result}")
+        except ZeroDivisionError:
+            print("inner error: cannot divide by zero.")
+    except ValueError:
+        print("outer error: invalid input. pls enter the valid number.")
+
