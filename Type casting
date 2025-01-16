@@ -1,0 +1,10 @@
+x=10  
+y=2.5  #float
+c=int(y)        #Typecasting
+
+print(c)
+print(type(c))
+
+d=x+y    #type conversion
+print(d)
+print(type(d))
