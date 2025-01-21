@@ -1,0 +1,107 @@
+What is Python?
+----------------
+Python is a high-level, general-purpose programming language known for its simplicity, readability, and versatility. It is widely used in data analysis, machine learning, web development, automation, and more. Python provides powerful libraries and tools specifically tailored for data analysis and visualization.
+
+Why Python is Popular for Data Analysis?
+------------------------------------------
+Ease of Use: Python's syntax is simple and intuitive, making it beginner-friendly.
+Rich Libraries: It has a wide range of libraries designed for data manipulation, visualization, and analysis, such as:
+NumPy: For numerical computing.
+Pandas: For data manipulation and analysis.
+Matplotlib & Seaborn: For data visualization.
+Scikit-learn: For machine learning.
+Integration: Python integrates easily with databases, APIs, and other tools like Excel or Power BI.
+Community Support: Python has a large, active community, offering extensive documentation and support.
+
+Essentials:
+Dataset overview
+Data cleaning
+EDA
+Visualization
+Inights and reporting
+
+
+What are the prerequisits
+
+1. Python Fundametals
+variable
+datatype
+Operators
+Conditional Statements and loops (if,else,elif and for,while)
+Functions(regular functions and lambda functions)
+error , types of error and error handling
+
+2. Data Manipulation with Pandas
+- read and write data from csv,excel and database
+- dataframe operation: filtering, sorting, grouping,merging and joining.
+- handling missing data and reshaping data frames
+-Indexing and slicing techniques
+
+3. Numpy Liabrary - Numerical Computing
+-Array: creation,indexing and slicicng
+-mathematical and statistical calculation and operations
+
+4. Data Visualization
+libraries
+-Matplotlib 
+- seaborn
+-plotly/dash
+#common charts - line,bar,scatter, histogram, boxplots,heatmaps
+
+5.statistical Analysis
+-Descriptive statistics : Mean,Median, Mode, SD
+- Probability distributions
+-Hypothesis Testing (t-tests,chi-square tests)
+-Anova and coorelation analysis
+
+6. SQL integration
+-connect to databases
+-execute sql queries
+-import and export data between sql databases and pandas
+
+7. Version Control with Git
+- Commit 
+-push
+-pull changes
+#creation of protfolio and manage projects using Github
+
+
+#Problem Solution 
+
+How is Python Used for Data Analysis in Real-Time?
+
+1. Data Collection
+Python can connect to databases, APIs, and web scraping tools to gather data.
+Libraries:
+SQLAlchemy or pyodbc for database connections.
+Requests or BeautifulSoup for web scraping.
+Pandas for reading CSV/Excel files.
+
+2. Data Cleaning and Preprocessing
+Removing duplicates, handling missing values, correcting data types, etc.
+Example:
+import pandas as pd
+# Load data
+data = pd.read_csv("data.csv")
+# Handle missing values
+data.fillna(0, inplace=True)
+# Convert data type
+data['date'] = pd.to_datetime(data['date'])
+
+
+3. Data Exploration
+Summarizing and understanding the dataset using descriptive statistics.
+Example:
+print(data.describe())
+print(data.info())
+
+
+
+
+
+
+
+
+
+
+
